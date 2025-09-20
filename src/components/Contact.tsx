@@ -82,24 +82,25 @@ export const Contact = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="h-5 w-5 text-meridian-red mt-1" />
                   <div>
-                    <p className="font-semibold text-meridian-gray">Call-центр</p>
-                    <p className="text-meridian-light-gray">8(3452)580-064</p>
+                    <p className="font-semibold text-meridian-gray">Офис</p>
+                    <p className="text-meridian-light-gray">8 (3452) 217–008</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <Clock className="h-5 w-5 text-meridian-red mt-1" />
                   <div>
-                    <p className="font-semibold text-meridian-gray">Аварийная служба</p>
-                    <p className="text-meridian-light-gray">8(3452)202-434</p>
+                    <p className="font-semibold text-meridian-gray">Мобильные</p>
+                    <p className="text-meridian-light-gray">+7 919 940-4440</p>
+                    <p className="text-meridian-light-gray">8 (922) 007–77–88</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <Mail className="h-5 w-5 text-meridian-red mt-1" />
                   <div>
-                    <p className="font-semibold text-meridian-gray">Email</p>
-                    <p className="text-meridian-light-gray">info@meridian-service72.ru</p>
+                    <p className="font-semibold text-meridian-gray">Telegram</p>
+                    <p className="text-meridian-light-gray">@filatov3452</p>
                   </div>
                 </div>
               </CardContent>

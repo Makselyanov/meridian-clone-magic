@@ -10,7 +10,7 @@ export const Footer = () => {
               <div className="w-8 h-8 bg-meridian-red rounded-lg flex items-center justify-center">
                 <Home className="h-4 w-4 text-white" />
               </div>
-              <span className="font-bold text-lg">Меридиан-Сервис</span>
+              <span className="font-bold text-lg">Культура Сервис</span>
             </div>
             <p className="text-gray-400">
               Современный подход к управлению многоквартирными домами
@@ -39,16 +39,27 @@ export const Footer = () => {
           
           <div>
             <h3 className="font-semibold mb-4">Контакты</h3>
-            <div className="space-y-2 text-gray-400">
-              <p>Call-центр: 8(3452)580-064</p>
-              <p>Аварийная служба: 8(3452)202-434</p>
-              <p>Email: info@meridian-service72.ru</p>
+            <div className="space-y-1 text-gray-400 text-sm">
+              <p>Офис: 8 (3452) 217–008</p>
+              <p>Моб: +7 919 940-4440</p>
+              <p>Telegram: 8 (922) 007–77–88</p>
+              <p>Сайт: szcult.ru</p>
             </div>
           </div>
         </div>
         
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Меридиан-Сервис. Все права защищены.</p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="text-center text-gray-400 mb-4">
+            <p>&copy; 2024 ООО УК "КУЛЬТУРА СЕРВИС". Все права защищены.</p>
+          </div>
+          <div className="text-xs text-gray-500 space-y-1">
+            <p><strong>ООО "УПРАВЛЯЮЩАЯ КОМПАНИЯ КУЛЬТУРА СЕРВИС"</strong></p>
+            <p>ИНН 7203596511, КПП 720301001, ОГРН 1257200012585</p>
+            <p>Р/с: 40702 810 6 6777 0001738, БИК: 047102651</p>
+            <p>Банк: ЗАПАДНО-СИБИРСКОЕ ОТДЕЛЕНИЕ №8647 ПАО СБЕРБАНК</p>
+            <p>К/с: 30101 810 8 0000 0000651</p>
+            <p>Юр. адрес: 625027, Тюменская обл., г. Тюмень, ул. Киевская, д. 74А, офис 1</p>
+          </div>
         </div>
       </div>
     </footer>

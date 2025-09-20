@@ -15,9 +15,9 @@ export const Header = () => {
                 <div>
                   <span className="font-semibold">Call-центр</span>
                   <div className="text-xs text-meridian-light-gray">
-                    8(3452)580-064
+                    8 (3452) 217–008
                     <br />
-                    (пн-чт: с 8.00 до 17.00, пт: с 8.00 до 16.00, сб-вс: выходные)
+                    (пн-пт: с 8.00 до 17.00, сб-вс: выходные)
                   </div>
                 </div>
               </div>
@@ -28,9 +28,9 @@ export const Header = () => {
                 <div>
                   <span className="font-semibold">Аварийно-диспетчерская служба</span>
                   <div className="text-xs text-meridian-light-gray">
-                    8(3452)202-434
+                    +7 919 940-4440
                     <br />
-                    (пн-чт: с 17.00 до 8.00, пт: с 16.00 до 8.00, сб-вс: круглосуточно)
+                    8 (922) 007–77–88 (Telegram)
                   </div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export const Header = () => {
               <Home className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-meridian-gray">Меридиан-Сервис</h1>
+              <h1 className="text-2xl font-bold text-meridian-gray">Культура Сервис</h1>
               <p className="text-sm text-meridian-light-gray">Управляющая компания</p>
             </div>
           </div>
