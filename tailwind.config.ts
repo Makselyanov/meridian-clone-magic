@@ -47,15 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        meridian: {
+          red: "hsl(var(--meridian-red))",
+          "red-hover": "hsl(var(--meridian-red-hover))",
+          orange: "hsl(var(--meridian-orange))",
+          gray: "hsl(var(--meridian-gray))",
+          "light-gray": "hsl(var(--meridian-light-gray))",
+          "bg-gray": "hsl(var(--meridian-bg-gray))",
         },
       },
       borderRadius: {
