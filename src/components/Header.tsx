@@ -1,5 +1,6 @@
 import { Phone, Clock, Home, MessageSquare, Info, Users, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import kulturaLogo from "@/assets/kultura-servis-logo.jpg";
 
 export const Header = () => {
   return (
@@ -50,7 +51,7 @@ export const Header = () => {
           <div className="flex items-center space-x-4">
             <div className="w-12 h-12 rounded-lg overflow-hidden">
               <img 
-                src="/src/assets/kultura-servis-logo.jpg" 
+                src={kulturaLogo} 
                 alt="Культура Сервис логотип"
                 className="w-full h-full object-cover"
               />
