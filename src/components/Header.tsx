@@ -1,8 +1,11 @@
 import { Phone, Clock, Home, MessageSquare, Info, Users, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import kulturaLogo from "@/assets/kultura-servis-logo.jpg";
+import { useNavigate } from "react-router-dom";
+import kulturaLogo from "@/assets/kultura-servis-logo.png";
 
 export const Header = () => {
+  const navigate = useNavigate();
+  
   return (
     <header className="bg-white shadow-sm border-b border-gray-100">
       {/* Top contact bar */}
@@ -37,7 +40,12 @@ export const Header = () => {
               </div>
             </div>
             
-            <Button variant="default" size="sm" className="bg-meridian-red hover:bg-meridian-red-hover text-white">
+            <Button 
+              variant="default" 
+              size="sm" 
+              onClick={() => navigate('/coming-soon')}
+              className="bg-meridian-red hover:bg-meridian-red-hover text-white"
+            >
               <LogIn className="h-4 w-4 mr-2" />
               ВОЙТИ В ЛИЧНЫЙ КАБИНЕТ
             </Button>

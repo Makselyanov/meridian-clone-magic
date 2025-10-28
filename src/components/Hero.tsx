@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { UserPlus } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import heroBg from "@/assets/hero-buildings.jpg";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+  
   return (
     <section 
       className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
@@ -22,6 +25,7 @@ export const Hero = () => {
             <Button 
               size="lg" 
               variant="secondary"
+              onClick={() => navigate('/coming-soon')}
               className="mt-6 bg-white text-meridian-red hover:bg-gray-50 font-semibold px-8 py-3 text-lg"
             >
               <UserPlus className="h-5 w-5 mr-2" />
