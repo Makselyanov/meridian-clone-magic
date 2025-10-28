@@ -70,10 +70,17 @@ export const Contact = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-2xl font-bold text-meridian-gray mb-6">
-                Карта присутствия
+                Где мы находимся
               </h2>
-              <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <MapPin className="h-8 w-8 text-meridian-red" />
+              <div className="rounded-lg overflow-hidden">
+                <iframe 
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d1b7d3987ff7ef362559316c0a8d0e6f1adb7d985cdb69238e58cc5db154b99&amp;source=constructor" 
+                  width="100%" 
+                  height="400" 
+                  frameBorder="0"
+                  className="w-full"
+                  title="Карта расположения"
+                />
               </div>
             </div>
             
